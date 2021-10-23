@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <style>
+      p {font-family: Arial, Helvetica, sans-serif; text-align: center;font-size: 48px;color: #FFFFFF; text-shadow: 0 0 10px #FFFFFF; color: #FFFFFF;;}
+      p:hover{font-size: 56px;}
+      h1 {font-family: Arial, Helvetica, sans-serif; text-align: center; color: cornsilk; font-size: 96;}
+      div {align-content: center;}
+      body {background-image: url(https://www.designbolts.com/wp-content/uploads/2012/11/Awesome-Gun-metal-Black-Pattern-for-background.jpg)}
+      a {font-size: 48px; font-family: Arial, Helvetica, sans-serif;text-decoration: none; }
+      a:hover {font-size: 56px;}
+      #abc {
+        color: #e0dfdc;
+
+        letter-spacing: .1em;
+        text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0,0,0,0.9);
+        color: #e0dfdc;
+
+        font-size: 96px;
+            }
+            #demotext {
+                color: #FFFFFF;
+
+text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+color: #FFFFFF;
+
+
+
+}
+    
+  </style>
+  <title></title>
+  <link href="stylesheet.css" rel="stylesheet" />
+</head>
+<!-- this is pretty poorly done, with lots of redundent code, so bear with me. this first part is the site's "header" (no functionality) made from the toast frame work.) -->
+<!-- I was going to make the color of the header black, but there ould always be gaps, and because i dont know how toast works very well, I didnt fix it-->
+<!-- so for "above and beyond, I went ahead and added in a tiled background image, tried to make the site aethetically pleasing, and  added an animated transparent pikachu"-->
+<!-- also the buttons link to something pretty cool :) -->
+<body>
+    <div class="grid">
+        <div class="grid__col grid__col--1-of-3">
+          <p style="font-size: 24px;">Hello there!</p>
+        </div>
+        
+        <div class="grid__col grid__col--1-of-3">
+          <p style="font-size: 24px">General kenobi</p>
+        </div>
+        
+        <div class="grid__col grid__col--1-of-3">
+            <p style="font-size: 24px">I'm a useless header</p>
+          </div>
+      
+        </div>
+        <!-- here have a stylized header-->
+        <h1 id = "abc">WELCOME!</h1>
+
+        <!-- here we set up a toast grid inside a div to make it smaller-->
+        <div style="width: 60%; padding-left: 20%;">
+        <!-- and here we make some pretty ugly buttons using color gradient-->
+        <div class="grid">
+            <div class="grid__col grid__col--1-of-3" style="clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);background:linear-gradient(90deg, rgba(171,45,45,1) 22%, rgba(0,212,255,1) 100%)">
+              <a href="https://www.youtube.com/watch?v=iik25wqIuFo" target="_blank"><p id = "demotext">OPTION</p></a>
+            </div>
+            
+            <div class="grid__col grid__col--1-of-3" style="clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);background: linear-gradient(90deg, rgba(171,45,45,1) 22%, rgba(0,212,255,1) 100%)">
+                <a href="https://www.youtube.com/watch?v=iik25wqIuFo" target="_blank"><p id = "demotext">OPTION</p></a>
+            </div>
+            
+            <div class="grid__col grid__col--1-of-3" style="clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);background:linear-gradient(90deg, rgba(171,45,45,1) 22%, rgba(0,212,255,1) 100%)">
+                <a href="https://www.youtube.com/watch?v=iik25wqIuFo" target="_blank"><p id = "demotext">OPTION</p></a>
+              </div>
+              </div>
+            <!-- and a pikachu -->
+              <div style="display: flex; justify-content: center; padding: 5%;">
+                    <img src= "https://static.wikia.nocookie.net/oidarcn/images/7/78/Pika.gif/revision/latest/scale-to-width-down/400?cb=20160720220827"></img>
+              </div>
+  
+</body>
+</html>
